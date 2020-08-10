@@ -10,7 +10,7 @@ import com.lawnmower.utils.fileparser.ParsedMower
   */
 object MowerConverter extends Converter[(String, String), ParsedMower] {
 
-  val actionsLinePattern = """\s*([ADG]+)\s*""".r
+  val actionsLinePattern = """\s*([FRL]+)\s*""".r
   val positionLinePattern = """\s*([0-9]+)\s+([0-9]+)\s+([NEWS])\s*""".r
 
   /**

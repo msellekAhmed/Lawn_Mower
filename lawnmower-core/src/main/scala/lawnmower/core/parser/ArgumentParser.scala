@@ -1,12 +1,14 @@
+package lawnmower.core.parser
+
 import java.io.File
 
-import lawnmower.core.parser.ArgumentParsinResult
 import scopt.OptionParser
+
 
 /**
   * Parser of command-line's arguments filling its result inside a [[]] instance and
   * displaying an usage output if the input is invalid.
-  * @see [[OptionParser]]
+  * @see [[ArgumentParser]]
   */
 object ArgumentParser extends OptionParser[ArgumentParsinResult]("lawn-mower") {
 

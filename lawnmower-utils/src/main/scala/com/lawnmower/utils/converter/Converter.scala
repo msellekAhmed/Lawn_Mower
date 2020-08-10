@@ -15,7 +15,7 @@ trait Converter[I, O] {
     * @return the conversion result.
     */
   def convert(input: I): Either[String, O]
-}
+
 }
 
 /**

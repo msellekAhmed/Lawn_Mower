@@ -1,12 +1,22 @@
+package lawnmower.core.launcher
+
 import java.io.File
 
+import com.lawnmower.model.lawn.Lawn
+import com.lawnmower.model.mower.Mower
+import com.lawnmower.model.orientation.Orientation
+import com.lawnmower.position.Position
+import com.lawnmower.utils.fileparser.ParsedLawn
+import com.lawnmower.utils.filereader.FlatFileReader
+
 import scala.util.{Failure, Try}
+
 
 /**
   * Object containing the launch logic allowing its easy testing. Thus, this code is extracted from the application's
   * main method that remains as simple as possible.
   */
-object LawnMowerLauncher {
+object ApplicationLauncher {
 
   /**
     * Launch the application from the given source file. 1) Parse file; 2) create lawn and mowers; 3) execute their
@@ -26,13 +36,13 @@ object LawnMowerLauncher {
   }
 
   /**
-    * Create a [[Mower]] from the given (valid) position tuple and lawn.
+    * Create a [[com.lawnmower.model.mower.Mower]] from the given (valid) position tuple and lawn.
     * @param position the initial position as a tuple (abscissa, ordinate, orientation).
     * @param lawn the parent lawn.
     * @return the created mower.
     */
   private def createMowerFrom(position: (Int, Int, Char), lawn: Lawn) = {
-    Mower(Point(position._1, position._2), CardinalPoint.withName(position._3.toString), lawn)
+    Mower(Position(position._1, position._2), Orientation.withName(position._3.toString), lawn)
   }
 
 }

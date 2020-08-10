@@ -1,8 +1,11 @@
 package com.lawnmower.utils.filereader
 
+import com.lawnmower.utils.converter.Converter
+
 /**
   * Reader of T instances from the provided function.
   * Inspired by David Galichet's talk (@dgalichet) at Paris Scala User Group.
+ *
   * @see http://fr.slideshare.net/dgalichet/writing-dsl-with-applicative-functors
   * @param reading the reading process to be performed.
   * @tparam T the read type.
