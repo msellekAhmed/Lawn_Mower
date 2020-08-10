@@ -29,7 +29,7 @@ Placez-vous dans le dossier où se trouve le JAR téléchargé (`lawnmower-core-
 #### Pré-requis ####
 Vous devez disposer:
 
-* d'un JDK en version 9 ou supérieure;
+* d'un JDK en version 8 ou supérieure;
 * de Maven en version 3 ou supérieure;
 * de Git.
 
