@@ -71,10 +71,9 @@ Quelques exemples vous sont fournis pour vous familiariser avec l'application:
 
 Fichier | Cas d'usage
 --------|------------
-[singleMower](https://bitbucket.org/mistertie/xebia-test/downloads/singleMower)|Une tondeuse seule.
-[singleMowerAtLawnBounds](https://bitbucket.org/mistertie/xebia-test/downloads/singleMowerAtLawnBounds)|Une tondeuse seule qui tente de franchir les limites de la pelouse.
-[multipleMowersWithoutCrash](https://bitbucket.org/mistertie/xebia-test/downloads/multipleMowersWithoutCrash)|Plusieurs tondeuses qui n'entrent pas en collision.
-[multipleMowersWithCrash](https://bitbucket.org/mistertie/xebia-test/downloads/multipleMowersWithCrash)|Plusieurs tondeuses qui engendrent des collisions.
+[singleMower](https://github.com/msellekAhmed/Lawn_Mower/blob/master/lawnmower-core/src/main/resources/singleMower)|Une tondeuse seule.
+[singleMowerAtLawnBounds](https://github.com/msellekAhmed/Lawn_Mower/blob/master/lawnmower-core/src/main/resources/singleMowerAtLawnBounds)|Une tondeuse seule qui tente de franchir les limites de la pelouse.
+[multipleMowersWithoutCrash](https://github.com/msellekAhmed/Lawn_Mower/blob/master/lawnmower-core/src/main/resources/multipleMowersWithoutCrash)|Plusieurs tondeuses qui n'entrent pas en collision.
 
 ---
 ## Notes techniques ##
